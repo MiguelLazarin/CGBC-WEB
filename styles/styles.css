@@ -73,9 +73,11 @@ nav ul li a {
     width: 100%;
     height: auto;
 }
-.body .SKF, .text {
+.body .SKF {
     display: block;
     margin: auto;
+    width: 75%;
+    
 }
 .body .text {
     margin: auto;
