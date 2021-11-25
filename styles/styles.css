@@ -6,6 +6,9 @@
 }
 
 .header {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
     max-height: auto;
     height: 100%;
     width: 100%;
@@ -63,4 +66,20 @@ nav ul li a {
 .btn-1:hover::before {
     transform: translate(5px, 5px);
     background-color: goldenrod;
+}
+.body {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.body .SKF, .text {
+    display: block;
+    margin: auto;
+}
+.body .text {
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    max-width: 400px;
 }
