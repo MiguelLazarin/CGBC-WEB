@@ -75,13 +75,13 @@ nav ul li a {
 }
 .body .SKF {
     display: block;
-    margin: auto;
     width: 75%;
-    
+    margin: auto;
 }
 .body .text {
+    display: block;
     margin: auto;
-    position: absolute;
-    top: 10px;
-    max-width: 400px;
+    font-size: 20px;
+    width: 75%;
+    max-width: 1142px;
 }
